@@ -41,5 +41,5 @@ RUN cd parity && \
 
 RUN file /build/parity/target/armv7-unknown-linux-gnueabihf/release/parity
 
-EXPOSE 8080 8545 8180
+EXPOSE 8080 8293 8180
 ENTRYPOINT ["/build/parity/target/armv7-unknown-linux-gnueabihf/release/parity"]

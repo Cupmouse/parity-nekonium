@@ -36,5 +36,5 @@ All default ports you might use will be exposed:
 #           secret
 #      ipfs store     ui   rpc  ws   listener  discovery
 #      ↓    ↓         ↓    ↓    ↓    ↓         ↓
-EXPOSE 5001 8082 8083 8180 8545 8546 30303/tcp 30303/udp
+EXPOSE 5001 8082 8083 8180 8293 8294 30303/tcp 30303/udp
 ```

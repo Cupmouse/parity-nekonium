@@ -33,7 +33,7 @@ RUN addgroup -g 1000 parity \
 
 USER parity
 
-EXPOSE 8080 8545 8180
+EXPOSE 8080 8293 8180
 
 WORKDIR /home/parity
 

@@ -531,7 +531,7 @@ usage! {
 			"--no-ws",
 			"Disable the WebSockets JSON-RPC server.",
 
-			ARG arg_ws_port: (u16) = 8546u16, or |c: &Config| c.websockets.as_ref()?.port.clone(),
+			ARG arg_ws_port: (u16) = 8294u16, or |c: &Config| c.websockets.as_ref()?.port.clone(),
 			"--ws-port=[PORT]",
 			"Specify the port portion of the WebSockets JSON-RPC server.",
 
@@ -1726,7 +1726,7 @@ mod tests {
 			flag_no_jsonrpc: false,
 			flag_jsonrpc_no_keep_alive: false,
 			flag_jsonrpc_experimental: false,
-			arg_jsonrpc_port: 8545u16,
+			arg_jsonrpc_port: 8293u16,
 			arg_jsonrpc_interface: "local".into(),
 			arg_jsonrpc_cors: "null".into(),
 			arg_jsonrpc_apis: "web3,eth,net,parity,traces,rpc,secretstore".into(),
@@ -1739,7 +1739,7 @@ mod tests {
 
 			// WS
 			flag_no_ws: false,
-			arg_ws_port: 8546u16,
+			arg_ws_port: 8294u16,
 			arg_ws_interface: "local".into(),
 			arg_ws_apis: "web3,eth,net,parity,traces,rpc,secretstore".into(),
 			arg_ws_origins: "none".into(),

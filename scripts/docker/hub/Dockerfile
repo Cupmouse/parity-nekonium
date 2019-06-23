@@ -42,7 +42,7 @@ USER parity
 # check if executable works in this container
 RUN parity --version
 
-EXPOSE 5001 8080 8082 8083 8545 8546 8180 30303/tcp 30303/udp
+EXPOSE 5001 8080 8082 8083 8293 8294 8180 30303/tcp 30303/udp
 
 ENTRYPOINT ["/bin/parity"]
 

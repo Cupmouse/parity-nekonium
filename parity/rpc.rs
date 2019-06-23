@@ -52,7 +52,7 @@ impl Default for HttpConfiguration {
 		HttpConfiguration {
 			enabled: true,
 			interface: "127.0.0.1".into(),
-			port: 8545,
+			port: 8293,
 			apis: ApiSet::UnsafeContext,
 			cors: Some(vec![]),
 			hosts: Some(vec![]),
@@ -105,7 +105,7 @@ impl Default for WsConfiguration {
 		WsConfiguration {
 			enabled: true,
 			interface: "127.0.0.1".into(),
-			port: 8546,
+			port: 8294,
 			apis: ApiSet::UnsafeContext,
 			max_connections: 100,
 			origins: Some(vec!["parity://*".into(),"chrome-extension://*".into(), "moz-extension://*".into()]),

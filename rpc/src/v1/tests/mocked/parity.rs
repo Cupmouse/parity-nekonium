@@ -63,7 +63,7 @@ impl Dependencies {
 				network_port: 30303,
 				rpc_enabled: true,
 				rpc_interface: "all".to_owned(),
-				rpc_port: 8545,
+				rpc_port: 8293,
 			}),
 			network: Arc::new(TestManageNetwork),
 			ws_address: Some("127.0.0.1:18546".into()),
